@@ -215,6 +215,23 @@ footer p {
     }
 }
 
+@media only screen and (min-width: 577px) and (max-width: 767px) and (orientation: portrait) {
+
+
+    section .container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    #products .container .products-items {
+        display: grid;
+        grid-template-columns: repeat(2, 49%);
+    }
+}
+
 @media (max-width: 576px) {
     .container {
         display: flex;
